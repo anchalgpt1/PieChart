@@ -1,0 +1,24 @@
+This project will read the data from the excel sheet using oledb drivers and show the data in the form of pie chart.
+We read the data in the backend (C#) and passed it to the front end using asp hidden variable. On frontend, I read 
+the data and created the pie chart using google chart. 
+
+Technologies used - 
+1) ASP.Net Webforms
+2) C#
+3) Object oriented Javascript 
+4) Jquery
+5) GoogleChart Api
+
+
+Precautions for the excel reading - 
+1) Name of the sheet of the excel should be  'Sales'.
+2) Internet should be available (to download google charts js).
+
+
+Limitations - 
+1) In this project, At a time we can only read 100 rows(This number can be extended).
+2) No spell check is done as data doesnot require communication from database.
+3) User is not allowed to download the pie chart. 
+
+
+
